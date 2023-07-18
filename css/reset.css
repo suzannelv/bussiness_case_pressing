@@ -1,0 +1,269 @@
+h2 {
+  font-weight: bolder;
+}
+/* nav-top */
+.nav-top {
+  height: 46px;
+  font-size: 0.8rem;
+  line-height: 46px;
+  color: white;
+}
+header {
+  z-index: 10000;
+}
+
+header .icon {
+  width: 20px;
+  height: 20px;
+}
+
+header .nav-order {
+  background-color: rgba(249, 202, 115, 0.5);
+  color: white;
+  height: 34px;
+  line-height: 34px;
+}
+
+/* navbar */
+
+form .nav-search {
+  background-color: rgb(209, 209, 209);
+}
+form .loop {
+  margin-left: -46px;
+}
+
+/* section carousel */
+.carousel-inner {
+  position: relative;
+  z-index: -99;
+  max-height: 800px;
+  /*margin-top: -107px; */
+}
+.carousel-inner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.carousel-caption {
+  z-index: 99;
+}
+.carousel-caption .title {
+  margin-top: -350px;
+}
+
+.carousel-caption form .bg-search {
+  width: 400px;
+  height: 48px;
+  border-radius: 24px 0 0 24px;
+}
+.carousel-caption form #search {
+  height: 48px;
+  border: transparent;
+  color: white;
+  font-size: 14px;
+  border-radius: 0 24px 24px 0;
+  background-color: rgba(249, 202, 115, 0.5);
+}
+
+/* main */
+/* section 1  */
+#promise .width-text {
+  width: 80%;
+  margin: auto;
+}
+
+#promise .engagement {
+  box-shadow: 0 3px 3px rgb(220, 220, 220);
+}
+#promise .engagement:hover {
+}
+
+/* section 2 qui sommes-nous? */
+
+#intro .forward-img {
+  border: 10pcx solid white;
+  margin-top: -400px;
+  margin-left: 90px;
+}
+#intro .separator {
+  border-bottom: 2px solid var(--primaryColor);
+  width: 80%;
+}
+#intro .small-txt,
+.quality {
+  font-size: 14px;
+  color: rgb(99, 99, 99);
+}
+
+/* section 3: nos services */
+
+.owl-stage {
+  display: flex;
+}
+.owl-item {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+#service .item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  border: 1px solid rgb(206, 206, 206);
+  box-shadow: 1px 2px 5px 2px rgb(217, 217, 217);
+  border-radius: 20px 20px 0 0;
+}
+#service .item a {
+  width: 40%;
+  margin: auto;
+  color: white;
+  background-color: var(--primaryColor);
+}
+
+#service .discover_service {
+  background-image: url(https://img.freepik.com/photos-gratuite/main-tenant-vetements-pour-enfants-t-shirt_53876-127171.jpg?w=740&t=st=1689690291~exp=1689690891~hmac=2d85be03545deca41c9103daf6bb2ff955d4efb45791343b25d6370959b4748b);
+  background-size: cover;
+}
+
+.owl-nav {
+  text-align: center;
+}
+.owl-nav button {
+  margin: 10px;
+}
+
+.owl-dots {
+  text-align: center;
+}
+
+.owl-dots button span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: auto 10px;
+  border-radius: 50%;
+
+  background-color: grey;
+}
+.owl-dots button.active span {
+  background-color: rgb(242, 193, 44);
+}
+
+/* section 4 pourquoi nous choisir */
+#achievement .bg-logo {
+  background-image: url(../img/bg_logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.achievement-category .quality-item strong {
+  font-size: 26px;
+  color: var(--secondColor);
+}
+.achievement-category .quality-item p {
+  color: rgb(116, 116, 116);
+  font-size: 14px;
+  font-weight: 700;
+}
+.key_word {
+  background-color: rgba(241, 200, 65, 0.2);
+}
+
+/* section 5: fondateurs*/
+#fonder .cover {
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  bottom: -1000px;
+  transition: all ease 0.5s;
+}
+#fonder .fonders:hover .cover {
+  bottom: 0px;
+}
+
+/* section 6: avis de clients */
+#comment {
+  background-image: url(../img/homepage/bg_comment.svg);
+}
+.user_name {
+  color: var(--primaryColor);
+  font-size: 16px;
+}
+#comment .date {
+  font-size: 14px;
+}
+
+/* section 7: actualités */
+.title_actu {
+  top: 10%;
+  left: 15%;
+}
+.title_actu small {
+  font-size: 12px;
+  display: block;
+  text-align: end;
+}
+.actu_date {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: -15%;
+}
+.min-separator {
+  height: 5px;
+  width: 50%;
+  border-radius: 2.5px;
+  background-color: #fff;
+}
+/* footer */
+.footer_top {
+  background-color: #e8e8e8;
+}
+footer h4 {
+  color: var(--secondColor);
+  font-weight: 700;
+}
+footer .icon {
+  width: 40px;
+  height: 40px;
+}
+footer .client-service,
+.mail {
+  width: 90%;
+  height: 50px;
+  border: 1px solid var(--primaryColor);
+}
+.client-service p,
+.mail p {
+  margin-top: 15px;
+  line-height: 100%;
+  font-weight: 600;
+}
+
+footer form input {
+  height: 42px;
+  border: transparent;
+}
+.submit {
+  width: 30%;
+  background-color: var(--primaryColor);
+  color: white;
+}
+
+.footer_bottom {
+  background: rgb(79, 79, 79);
+}
+
+.footer_logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer_nav {
+  font-size: 12px;
+}
+/* question: 1. commentaire des clients, container h2*/
+/* question 2: footer -> contact, center */
+/* question 3: footer-bottom, vertical center */
+/* question 4: pb de margin sur petit écran */
